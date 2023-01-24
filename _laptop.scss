@@ -1,0 +1,316 @@
+@media (min-width: 1024px) and (max-width: 1350px) {
+    
+    .container {
+        padding-left: calc(50% - 480px);
+        padding-right: calc(50% - 480px);
+    }
+
+    .post {
+        &_left {
+            width: 530px;
+        }
+        &_right {
+            width: 400px;
+            &_header {
+                justify-content: center;
+                gap: 154px;
+            }
+        }
+    }
+
+    .about {
+        &_content {
+            &_right {
+                max-width: 350px;
+            }
+        }
+    }
+
+    .catagory {
+        &_content {
+            &_item {
+                max-width: 226px;
+                & h3 {
+                    margin: 8px 0 4px 0;
+                    font-size: 24px;
+                }
+                & p {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    .why {
+        &_content {
+            padding: 60px;
+            right: 0;
+            bottom: -10px;
+            &_p {
+                font-size: 14px;
+            }
+            &_header {
+                margin: 20px 0 14px;
+                font-size: 36px;
+                line-height: 56px;
+            }
+            &_text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .logos {
+        
+        &_blok {
+            &_first {
+                display: none;
+            }
+        }
+    }
+
+    .review {
+
+        &_content {
+            padding: 56px;
+        }
+        &_left {
+            padding-right: 36px;
+            &_header {
+                font-size: 30px;
+            }
+        }
+        &_right {
+            padding-left: 36px;
+            &_text {
+                margin-bottom: 72px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .footer {
+        
+        &_content {
+            gap: 30px;
+            &_header {
+                font-size: 22px;
+                line-height: 30px;
+            }
+            &_form {
+                &_input {
+                    width: 282px;
+                }
+            }
+        }
+    }
+
+    .all {
+        &_content {
+            &_blok {
+                justify-content: space-between;
+                & img {
+                    width: 400px;
+                }
+                &_right {
+                    width: 500px;
+                }
+            }
+        }
+    }
+
+    .startup {
+
+        &_box {
+            margin-left: 128px;
+        }
+    }
+
+    .readnext {
+
+        &_header {
+            margin-left: 60px;
+        }
+        &_blok {
+            justify-content: center;
+            gap: 48px;
+        }
+    }
+
+    .category {
+        justify-content: center;
+        gap: 48px;
+
+        &_left {
+            &_blok {
+                gap: 24px;
+                &_foto {
+                    width: 236px;
+                }
+                &_content {
+                    &_header {
+                        font-size: 26px;
+                        line-height: 36px;
+                    }
+                    &_text {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        &_right {
+            &_blok {
+                &_content {
+                    padding: 16px;
+                    &_h3 {
+                        font-size: 24px;
+                    }
+                }
+            }
+            &_headerall {
+                margin: 60px 0 32px;
+            }
+            &_buttons {
+                &_item {
+                    &_btn {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .andrew {
+
+        &_blok {
+            &_content {
+                &_header {
+                    font-size: 40px;
+                    line-height: 52px;
+                }
+            }
+        }
+    }
+
+    .aboutus {
+        margin-top: 128px;
+
+        &_content {
+            &_left {
+                padding: 48px;
+                &_header {
+                    font-size: 36px;
+                    line-height: 48px;
+                }
+            }
+        }
+        &_fon {
+            &_blok {
+                padding: 24px 30px;
+                &_item {
+                    &_number {
+                        font-size: 42px;
+                        line-height: 48px;
+                    }
+                }
+            }
+            &_color {
+                &_yellow {
+                    width: 540px;
+                }
+            }
+        }
+    }
+
+    .creatives {
+
+        &_content {
+            gap: 80px;
+            &_foto {
+                &_foto {
+                    max-width: 420px;
+                }
+            }
+            &_text {
+                &_header {
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+                &_h4 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                &_p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: justify;
+                }
+            }
+            &_second {
+               &_foto {
+                    &_foto {
+                        max-width: 420px;
+                    }
+               }
+               &_text {
+                    &_header {
+                        font-size: 30px;
+                        line-height: 38px;
+                    }
+                    &_h4 {
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+                    &_p {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: justify;
+                    }
+                } 
+            }
+        }
+    }
+
+    .mypost {
+        margin: 64px 0;
+
+        &_header {
+            margin-left: 0;
+            font-size: 40px;
+        }
+        &_blok {
+            margin-left: 0;
+            & img {
+                max-width: 364px;
+            }
+            &_content {
+                gap: 48px;
+            }
+        }
+    }
+
+    .contact {
+
+        &_first {
+            &_text {
+                width: 612px;
+            }
+        }
+        &_hours {
+            margin: 64px 108px 32px;
+        }
+    }
+
+    .privacy {
+
+        &_content {
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
